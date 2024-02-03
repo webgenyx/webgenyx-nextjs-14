@@ -1,0 +1,72 @@
+
+.main{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(to left, rgba(0, 78, 146, 1), rgba(0, 4, 40, 1));
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.aboutContainer{
+    width: 90%;
+    height: 90vh;
+    border-radius: 10px;
+    background-image: url('../exports/about-background.png');
+    background-position: bottom;
+    background-size: cover;
+}
+
+.titleContainer{
+    width: 80%;
+    margin: auto;
+}
+
+.title{
+    font-size: 45px;
+    font-weight: bold;
+    color: white;
+    font-family: 'Exo 2', sans-serif;
+}
+
+.specialTitle{
+    background: linear-gradient(90deg, #B336DF 3.59%, #FF4F17 21.1%, #FD9904 39.22%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.aboutCarts{
+    width: 80%;
+    height: 68vh;
+    margin: auto;
+   
+    display: flex;
+    
+}
+
+.cartContainer{
+    width: 50%;
+    height: 67vh;
+   
+    display: flex;
+    justify-content: center;
+}
+
+.aboutCart{
+    width: 70%;
+    height: 80%;
+    background-color: rgba(253, 253, 253, 0.363);
+    border-radius: 15px;
+    backdrop-filter: blur(27.5px);
+    padding: 0 10px;
+}
+
+.cartImg{
+    padding-top: 10px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}

@@ -1,0 +1,81 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Audiowide&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alata&family=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alata&family=Alatsi&display=swap'); */
+
+.main{
+    height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(to left, rgba(0, 78, 146, 1), rgba(0, 4, 40, 1));
+    z-index: -10;
+}
+
+
+.workTitle{
+    width: 100%;
+    height: 200px;
+    background-color: white;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    border-radius: 15px 15px 0px 0px;
+}
+
+.container{
+   padding: 20px 40px ;
+}
+
+.titleWork{
+    color: rgba(21, 146, 255, 1);
+    font-weight: bold;
+    font-family: 'Audiowide';
+   
+}
+
+.titleDes{
+    font-family: 'Alatsi', sans-serif;
+    font-size: 15px;
+    margin-top: 15px;
+}
+
+
+
+.workImg{
+    background-image: url('../exports/unsplash_XJXWbfSo3f0.png');
+    background-size: cover;
+    height: 67vh;
+}
+
+.whatWeDo{
+    margin: auto;
+    color: white;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 150px;
+    height: 40px;
+    border-radius: 25px;
+    background-color: rgba(253, 253, 253, 0.13); 
+    margin-bottom: 15px;
+}
+
+.workCards{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.cartContainer{
+    margin-top: 15px;
+    width: 20%;
+    height: 63vh;
+    border: 1px solid gray;
+    border-radius: 12px;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
+}
+
+.cartContainer img{
+    width: 100%;
+}
