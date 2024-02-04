@@ -3,6 +3,8 @@ import nav from './Navbar.module.css';
 import logo from '../exports/W.svg';
 import Link from 'next/link';
 import Image from 'next/image';
+import { IoIosMenu } from "react-icons/io";
+
 const Navbar = () => {
     return (
         <div className={nav.nav}>
@@ -47,3 +49,4 @@ const Navbar = () => {
 };
 
 export default Navbar;
+//  <IoIosMenu />
