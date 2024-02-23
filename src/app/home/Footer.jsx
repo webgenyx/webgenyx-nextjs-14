@@ -1,6 +1,6 @@
 import footer from './Footer.module.css';
 import humanTable from '../exports/8831.png';
-import logo from '../exports/logo(1).png';
+import logo from '../exports/W.svg';
 import { footerIcons } from '../data/data';
 import Image from 'next/image';
 

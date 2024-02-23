@@ -38,6 +38,11 @@ import ball from '../exports/ball.png';
 import mail from '../exports/mail.png';
 import whatsApp from '../exports/whatsApp.png';
 
+import serviceTitleLogoOne from '../exports/Group 3.png'
+import serviceTitleLogoTwo from '../exports/Group 4.png'
+import serviceTitleLogoThree from '../exports/Group 5.png'
+import serviceTitleLogoFour from '../exports/Group 6.png'
+
 export const allImage = [
     {
         id: 1,
@@ -261,7 +266,7 @@ export const aboutCart = [
         img: shabab,
         name: 'Shabab Hasnain',
         designation: "Co-Founder & Legal Counselor ",
-        des: "Hello! I’m Tanjil, Chief Web Designer at Webgenix. With a relentless passion for crafting exceptional web experiences, we combine creativity with expertise. Our commitment to delivering top-tier design is evident in every project. Elevate your online presence with Tanjil's unparalleled design service.",
+        des: "I am shabab, legal counselor at webgenyx to provide you with all legal counseling regarding copyright claims, legal terms, market policies and cyber security issues of your Web experience. Moreover for a secured and smooth search engine optimization I shall be advising the SEO department of webgenyx.<br>Feel safe and secured with reliable service at Webgenyx.",
         style: {
             alignItem: 'end',
             color: 'lightgreen'
@@ -285,5 +290,28 @@ export const footerIcons = [
         id: 3,
         icon: whatsApp,
         tag: '+88 015 3317 3652'
+    },
+]
+
+export const serviceTitle = [
+    {
+        id: 1,
+        logo: serviceTitleLogoOne,
+        title: "WEB DESIGN"
+    },
+    {
+        id: 2,
+        logo: serviceTitleLogoTwo,
+        title: "WEB DEVELOPMENT"
+    },
+    {
+        id: 3,
+        logo: serviceTitleLogoThree,
+        title: "MOBILE APPLICATION"
+    },
+    {
+        id: 4,
+        logo: serviceTitleLogoFour,
+        title: "SEO SERVICE"
     },
 ]

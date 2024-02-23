@@ -28,8 +28,8 @@ const About = () => {
                                             <p style={{textAlign:'center', color:'white',marginTop:'0', marginBottom:'5px', padding:'0'}}>
                                                 {data.designation}
                                             </p>
-                                            <p style={{textAlign:'justify', color:'white', fontSize:'11px'}}>
-                                                {data.des}
+                                            <p dangerouslySetInnerHTML={{__html: data.des}} style={{textAlign:'justify', color:'white', fontSize:'11px'}}>
+                                               
                                             </p>
                                         </div>
                                     </div>

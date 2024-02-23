@@ -1,11 +1,14 @@
-
+"use client"
 import nav from './Navbar.module.css';
 import logo from '../exports/W.svg';
 import Link from 'next/link';
 import Image from 'next/image';
-import { IoIosMenu } from "react-icons/io";
+import { usePathname } from 'next/navigation';
+// import { IoIosMenu } from "react-icons/io";
 
 const Navbar = () => {
+    const pathname = usePathname();
+    console.log(pathname)
     return (
         <div className={nav.nav}>
             <div className={nav.main}>
@@ -33,7 +36,11 @@ const Navbar = () => {
                                     Works
                                 </li>
                                 <li>
-                                <Link style={{color:'white', textDecoration:'none'}} href='/service'>Services</Link>
+                                <Link style={{
+                                    color:'white', 
+                                    textDecoration:'none',
+                                    borderBottom: `${pathname === '/services' ? '3px solid white' : 'none'}`
+                                    }} href='/services'>Services</Link>
                                 </li>
                                 <li>
                                     Projects
