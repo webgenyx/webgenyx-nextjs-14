@@ -30,7 +30,11 @@ const Navbar = () => {
                         <div className={nav.optionContaier}>
                             <ul>
                                 <li id='home'>
-                                    <Link style={{color:'white', textDecoration:'none'}} href='/'>Home</Link>
+                                    <Link style={{
+                                        color:'white',
+                                        textDecoration:'none',
+                                        borderBottom: `${(pathname === '/') ? '3px solid white' : 'none'}`
+                                        }} href='/'>Home</Link>
                                 </li>
                                 <li id='#works'>
                                     Works
