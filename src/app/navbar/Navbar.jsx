@@ -39,8 +39,8 @@ const Navbar = () => {
                                 <Link style={{
                                     color:'white', 
                                     textDecoration:'none',
-                                    borderBottom: `${pathname === '/services' ? '3px solid white' : 'none'}`
-                                    }} href='/services'>Services</Link>
+                                    borderBottom: `${(pathname === '/services/webDesign' || pathname === '/services/webDev' || pathname === '/services/mobileApp' || pathname === '/services/seoService') ? '3px solid white' : 'none'}`
+                                    }} href='/services/webDesign'>Services</Link>
                                 </li>
                                 <li>
                                     Projects

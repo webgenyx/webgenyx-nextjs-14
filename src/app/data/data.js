@@ -39,9 +39,19 @@ import mail from '../exports/mail.png';
 import whatsApp from '../exports/whatsApp.png';
 
 import serviceTitleLogoOne from '../exports/Group 3.png'
+import serviceTitleLogoOneLight from '../exports/Group-3-light.png'
 import serviceTitleLogoTwo from '../exports/Group 4.png'
+import serviceTitleLogoTwoLight from '../exports/Group-4-light.png'
 import serviceTitleLogoThree from '../exports/Group 5.png'
+import serviceTitleLogoThreeLight from '../exports/Group-5-light.png'
 import serviceTitleLogoFour from '../exports/Group 6.png'
+
+
+import img1 from '../exports/Desktop - 1 6.png'
+// import img2 from '../exports/sliderImg/4-48377_hd-nature-wallpapers-desktop-images-4k-cool-natural.jpg'
+// import img3 from '../exports/sliderImg/549198.jpg'
+// import img4 from '../exports/sliderImg/7845_3d-nature-wallpaper-hd-1080p-free-download-hd-widescreen-wallpapers_1920x1080_h.jpg'
+// import img5 from '../exports/sliderImg/alley-89197_1280.jpg'
 
 export const allImage = [
     {
@@ -297,21 +307,52 @@ export const serviceTitle = [
     {
         id: 1,
         logo: serviceTitleLogoOne,
-        title: "WEB DESIGN"
+        logoLight: serviceTitleLogoOneLight,
+        title: "WEB DESIGN",
+        url: '/services/webDesign'
     },
     {
         id: 2,
         logo: serviceTitleLogoTwo,
-        title: "WEB DEVELOPMENT"
+        logoLight: serviceTitleLogoTwoLight,
+        title: "WEB DEVELOPMENT",
+        url: '/services/webDev'
     },
     {
         id: 3,
         logo: serviceTitleLogoThree,
-        title: "MOBILE APPLICATION"
+        logoLight: serviceTitleLogoThreeLight,
+        title: "MOBILE APPLICATION",
+        url: '/services/mobileApp'
     },
     {
         id: 4,
         logo: serviceTitleLogoFour,
-        title: "SEO SERVICE"
+        logoLight: serviceTitleLogoFour,
+        title: "SEO SERVICE",
+        url: '/services/seoService'
+    },
+]
+
+export const sliderData = [
+    {
+        id: 1,
+        bannerImg: img1
+    },
+    {
+        id: 2,
+        bannerImg: img1
+    },
+    {
+        id: 3,
+        bannerImg: img1
+    },
+    {
+        id: 4,
+        bannerImg: img1
+    },
+    {
+        id: 5,
+        bannerImg: img1
     },
 ]

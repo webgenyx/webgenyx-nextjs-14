@@ -1,0 +1,37 @@
+.main{
+    width: 100%;
+   
+    background-image: linear-gradient(to left, rgba(0, 78, 146, 1), rgba(0, 4, 40, 1));
+}
+.title{
+    padding-top: 100px;
+    width: 95%;
+    height: 70px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+   
+}
+
+.titleBar{
+    width: 307px;
+    height: 40px;
+    border-radius: 15px;
+    display: flex;
+}
+
+.titleLogo{
+    width: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.titlesTtile{
+    width: 80%;
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+    font-family: 'Exo 2', sans-serif;
+    font-weight: bold;
+}
