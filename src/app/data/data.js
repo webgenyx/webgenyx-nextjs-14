@@ -48,10 +48,7 @@ import serviceTitleLogoFour from '../exports/Group 6.png'
 
 
 import img1 from '../exports/Desktop - 1 6.png'
-// import img2 from '../exports/sliderImg/4-48377_hd-nature-wallpapers-desktop-images-4k-cool-natural.jpg'
-// import img3 from '../exports/sliderImg/549198.jpg'
-// import img4 from '../exports/sliderImg/7845_3d-nature-wallpaper-hd-1080p-free-download-hd-widescreen-wallpapers_1920x1080_h.jpg'
-// import img5 from '../exports/sliderImg/alley-89197_1280.jpg'
+
 
 export const allImage = [
     {
