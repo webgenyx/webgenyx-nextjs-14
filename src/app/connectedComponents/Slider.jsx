@@ -47,7 +47,7 @@ const Slider = ({data}) => {
     }, [count, data, copiedData, findFirstImage, pause]);
     return (
         <div className={servicePage.container}>
-        <Image onClick={() => setCount(count === 1 ? () => setCount(data?.result?.length) : count - 1)} style={{backgroundColor:'rgba(255, 255, 255, 1)', padding:'3px', borderRadius:'3px', cursor:'pointer'}} src={leftAng} alt=''/>
+        <Image onClick={() => setCount(count === 1 ? () => setCount(data?.length) : count - 1)} style={{backgroundColor:'rgba(255, 255, 255, 1)', padding:'3px', borderRadius:'3px', cursor:'pointer'}} src={leftAng} alt=''/>
         <div className={servicePage.imgBox}>
         {
                     copiedData?.map(d =>
@@ -73,7 +73,7 @@ const Slider = ({data}) => {
                 }
         </div>
       
-        <Image onClick={() => setCount(count === data?.result?.length ? () => setCount(0) : count + 1)} style={{backgroundColor:'rgba(255, 255, 255, 1)', padding:'3px', borderRadius:'3px', cursor:'pointer'}} src={rightAng} alt=''/>
+        <Image onClick={() => setCount(count === data?.length ? () => setCount(0) : count + 1)} style={{backgroundColor:'rgba(255, 255, 255, 1)', padding:'3px', borderRadius:'3px', cursor:'pointer'}} src={rightAng} alt=''/>
     </div>
     );
 };
