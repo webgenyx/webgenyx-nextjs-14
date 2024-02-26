@@ -59,32 +59,4 @@
 }
 
 
-/* 
-.container{
-    width: 1150px;
-    height: 595px;
-    background-image: url('../exports/Rectangle\ 35.png');
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    border-radius: 10px;
-    padding: 0 20px;
-    box-sizing: border-box;
-    margin: auto;
-    overflow: hidden;
-}
 
-.imgBox{
-    width: 950px;
-    height: 550px;
-    overflow: hidden;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-
-
-*/
