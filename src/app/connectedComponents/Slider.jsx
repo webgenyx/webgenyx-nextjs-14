@@ -46,7 +46,49 @@ const Slider = ({data}) => {
         };
     }, [count, data, copiedData, findFirstImage, pause]);
     return (
-        <div className={servicePage.container}>
+        <div className={servicePage.sliderMain}>
+        <Image onClick={() => setCount(count > 1 ? count - 1 : () => setCount(data?.length))} style={{backgroundColor:'rgba(255, 255, 255, 1)', padding:'3px', borderRadius:'3px', cursor:'pointer'}} src={leftAng} alt=''/>
+
+         <div className={servicePage.main}>
+            <div className={servicePage.container}>
+                <div
+                onMouseEnter={() => setPause(true)}
+                onMouseLeave={() => setPause(false)}
+                style={{ width: `${copiedData.length * 100}%`, height: '100%', display: 'flex' }}>
+                {
+                    copiedData.map(d => {
+                        return (
+                            <div 
+                            key={d.id}
+                            style={{
+                                width: '100%',
+                                height: '100%',
+                                display: 'flex',
+                                alignItems: 'center',
+                                justifyContent: 'center',
+                                transition: `transform ${count > 0 ? 1 : 0}s`,
+                                transform: `translateX(${count * -100}%)`
+                            }}>
+                                <Image style={{display: 'block' }} src={d?.bannerImg} alt="" />
+                            </div>
+                        )
+                    })
+                }
+            </div>
+        </div>
+       
+        </div>
+        <Image onClick={() => setCount(count === data?.length ? () => setCount(0) : count + 1)} style={{backgroundColor:'rgba(255, 255, 255, 1)', padding:'3px', borderRadius:'3px', cursor:'pointer'}} src={rightAng} alt=''/>
+       </div>
+    );
+};
+
+export default Slider;
+
+
+/* 
+
+<div className={servicePage.container}>
         <Image onClick={() => setCount(count === 1 ? () => setCount(data?.length) : count - 1)} style={{backgroundColor:'rgba(255, 255, 255, 1)', padding:'3px', borderRadius:'3px', cursor:'pointer'}} src={leftAng} alt=''/>
         <div className={servicePage.imgBox}>
         {
@@ -74,8 +116,6 @@ const Slider = ({data}) => {
         </div>
       
         <Image onClick={() => setCount(count === data?.length ? () => setCount(0) : count + 1)} style={{backgroundColor:'rgba(255, 255, 255, 1)', padding:'3px', borderRadius:'3px', cursor:'pointer'}} src={rightAng} alt=''/>
-    </div>
-    );
-};
+        </div>
 
-export default Slider;
+*/
